@@ -1,72 +1,51 @@
-project_name: "AI-Powered Automatic Text Summarization"
+# AI-Powered Automatic Text Summarization 🧠📄
 
-description: >
-  AI-Powered Automatic Text Summarization is a Python-based application that
-  automatically extracts key insights from large articles and documents using
-  Natural Language Processing (NLP) techniques. The system generates concise
-  summaries while preserving the core meaning and important information,
-  helping users save time and reduce information overload.
+An AI-based text summarization system that automatically extracts key insights from large articles and documents using Natural Language Processing (NLP). This project helps users quickly understand important information without reading the entire content.
 
-overview: >
-  With the rapid growth of digital content, reading and analyzing long articles
-  has become time-consuming. This project simplifies the process by identifying
-  and summarizing the most important parts of the text using NLP and machine
-  learning fundamentals.
+## Features
+- Automatic text summarization
+- Extracts key insights from long articles
+- Reduces reading time while preserving meaning
+- Uses NLP techniques for text processing
+- Simple and modular Python implementation
 
-features:
-  - Automatic summarization of long articles and documents
-  - Extraction of key insights and important sentences
-  - Reduces reading time while maintaining context
-  - NLP-based text preprocessing and analysis
-  - Modular and easy-to-understand Python implementation
+## Tech Stack
+- Python
+- Natural Language Processing (NLP)
+- NLTK / SpaCy
+- Machine Learning basics
+- VS Code
 
-technology_stack:
-  - Python
-  - Natural Language Processing (NLP)
-  - NLTK / SpaCy
-  - Machine Learning fundamentals
+## Project Structure
+AI-POWERED-AUTOMATIC-TEXT-SUMMARIZATION/
+├── app.py
+├── summarizer.py
+├── requirements.txt
+├── data/
+│ └── sample_text.txt
+└── README.md
 
-project_structure:
-  - app.py
-  - summarizer.py
-  - requirements.txt
-  - data/sample_text.txt
-  - README.md
 
-how_it_works:
-  - Accepts large text input
-  - Performs text preprocessing such as tokenization and stopword removal
-  - Calculates sentence importance using NLP techniques
-  - Selects the most relevant sentences
-  - Generates a concise and meaningful summary
 
-how_to_run:
-  - step: Clone the repository
-    command: git clone https://github.com/Amith517/AI-POWERED-AUTOMATIC-TEXT-SUMMARIZATION-FOR-EXTRACTING-KEY-INSIGHTS-FROM-ARTICLES.git
+## How to Run
+1. Clone the repository  
+   `git clone https://github.com/Amith517/AI-POWERED-AUTOMATIC-TEXT-SUMMARIZATION-FOR-EXTRACTING-KEY-INSIGHTS-FROM-ARTICLES.git`
 
-  - step: Navigate to the project directory
-    command: cd AI-POWERED-AUTOMATIC-TEXT-SUMMARIZATION-FOR-EXTRACTING-KEY-INSIGHTS-FROM-ARTICLES
+2. Navigate to the project directory  
+   `cd AI-POWERED-AUTOMATIC-TEXT-SUMMARIZATION-FOR-EXTRACTING-KEY-INSIGHTS-FROM-ARTICLES`
 
-  - step: Install required dependencies
-    command: pip install -r requirements.txt
+3. Install dependencies  
+   `pip install -r requirements.txt`
 
-  - step: Run the application
-    command: python app.py
+4. Run the application  
+   `python app.py`
 
-use_cases:
-  - "**News article summarization** for quick understanding"
-  - "**Academic research assistance** by summarizing papers"
-  - "**Content analysis** for blogs and reports"
-  - "**Business intelligence** from lengthy documents"
-  - "**Information extraction** from large textual data"
+## Use Cases
+- News article summarization
+- Academic research assistance
+- Content analysis
+- Quick insight extraction from documents
 
-future_enhancements:
-  - Integration with deep learning models
-  - Web-based user interface
-  - Multi-language support
-  - Real-time text summarization
-  - Improved accuracy using transformer models
-
-author:
-  name: "**Amith Reddy**"
-  github: "https://github.com/Amith517"
+## Author
+**Amith Reddy**  
+GitHub: https://github.com/Amith517
